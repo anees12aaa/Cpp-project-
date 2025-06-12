@@ -4,17 +4,15 @@
 
 using namespace std;
 
-// Define a structure for account information
-struct Account {
+{
     string accountNumber;
     string accountHolderName;
     double balance;
 };
 
-// Map to store accounts
 map<string, Account> accounts;
 
-// Function to create a new account
+
 void createAccount() {
     Account newAccount;
     cout << "Enter account number: ";
@@ -43,7 +41,6 @@ void deposit() {
     }
 }
 
-// Function to withdraw money
 void withdraw() {
     string accountNumber;
     double amount;
@@ -63,7 +60,7 @@ void withdraw() {
     }
 }
 
-// Function to check balance
+
 void checkBalance() {
     string accountNumber;
     cout << "Enter account number: ";
@@ -75,7 +72,7 @@ void checkBalance() {
     }
 }
 
-// Function to display account information
+ information
 void displayAccountInfo() {
     string accountNumber;
     cout << "Enter account number: ";
